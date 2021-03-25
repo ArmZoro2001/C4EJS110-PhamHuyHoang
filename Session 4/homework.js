@@ -1067,68 +1067,68 @@
 //     }
 // }
 //6.1
-{
-    const frontEnd = [
-        {
-            task : 'HTml',
-            Complete : 'false'
-        },
-        {
-            task : 'CSS ',
-            Complete : 'false'
-        },
-        {
-            task : 'Basics of JavaScript',
-            Complete : 'false'
-        },
-        {
-            task :' Node Package Manager (npm)',
-            Complete : 'false'
-        },
-        {
-            task:'Git',
-            Complete : 'false'
-        },
-    ]
-    // let i = 0;
-    // for (let x of frontEnd){
-    //     console.log(`${Number(i)+1}. ${x.task}\n Complete : ${x.Complete}`)
-    //     i++;
-    // }
-    let i = 0;
-    let n = prompt('Enter your command(New, Delete, Update, Complete')
-    if(n == 'new'){
-    let neww = prompt('Enter your new task')
-    frontEnd.push({task : neww, Complete : 'false'})
-    for (let x of frontEnd){
-        console.log(`${Number(i)+1}. ${x.task}\n Complete : ${x.Complete}`)
-        i++;
-    }
-    }
-    else if (n == 'update'){
-        let index = Number(prompt('Enter postion :'))
-        let up = prompt('Enter a new title')
-        frontEnd[index - 1].task = up; 
-        for (let x of frontEnd){
-            console.log(`${Number(i)+1}. ${x.task}\n Complete : ${x.Complete}`)
-            i++;
-        }
-    }
-    else if (n == 'complete'){
-        let index = Number(prompt('Enter postion : '))
-        let a = prompt('Enter Complete')
-        frontEnd[index - 1] = a;
-        for (let x of frontEnd){
-            console.log(`${Number(i)+1}. ${x.task}\n Complete : ${x.Complete}`)
-            i++;
-        }
-    }
-    else if (n == 'delete'){
-        let del = Number(prompt('Enter postion'))
-        frontEnd.splice(del-1,1);
-        for (let x of frontEnd){
-            console.log(`${Number(i)+1}. ${x.task}\n Complete : ${x.Complete}`)
-            i++;
-        }
-    }
-}
+// {
+//     const frontEnd = [
+//         {
+//             task : 'HTml',
+//             Complete : 'false'
+//         },
+//         {
+//             task : 'CSS ',
+//             Complete : 'false'
+//         },
+//         {
+//             task : 'Basics of JavaScript',
+//             Complete : 'false'
+//         },
+//         {
+//             task :' Node Package Manager (npm)',
+//             Complete : 'false'
+//         },
+//         {
+//             task:'Git',
+//             Complete : 'false'
+//         },
+//     ]
+//     // let i = 0;
+//     // for (let x of frontEnd){
+//     //     console.log(`${Number(i)+1}. ${x.task}\n Complete : ${x.Complete}`)
+//     //     i++;
+//     // }
+//     let i = 0;
+//     let n = prompt('Enter your command(New, Delete, Update, Complete')
+//     if(n == 'new'){
+//     let neww = prompt('Enter your new task')
+//     frontEnd.push({task : neww, Complete : 'false'})
+//     for (let x of frontEnd){
+//         console.log(`${Number(i)+1}. ${x.task}\n Complete : ${x.Complete}`)
+//         i++;
+//     }
+//     }
+//     else if (n == 'update'){
+//         let index = Number(prompt('Enter postion :'))
+//         let up = prompt('Enter a new title')
+//         frontEnd[index - 1].task = up; 
+//         for (let x of frontEnd){
+//             console.log(`${Number(i)+1}. ${x.task}\n Complete : ${x.Complete}`)
+//             i++;
+//         }
+//     }
+//     else if (n == 'complete'){
+//         let index = Number(prompt('Enter postion : '))
+//         let a = prompt('Enter Complete')
+//         frontEnd[index - 1] = a;
+//         for (let x of frontEnd){
+//             console.log(`${Number(i)+1}. ${x.task}\n Complete : ${x.Complete}`)
+//             i++;
+//         }
+//     }
+//     else if (n == 'delete'){
+//         let del = Number(prompt('Enter postion'))
+//         frontEnd.splice(del-1,1);
+//         for (let x of frontEnd){
+//             console.log(`${Number(i)+1}. ${x.task}\n Complete : ${x.Complete}`)
+//             i++;
+//         }
+//     }
+// }
