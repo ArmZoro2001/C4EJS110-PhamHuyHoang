@@ -1,0 +1,30 @@
+.bt1{
+    color: red;
+}
+.background-color{
+    background-color: #00FF00;
+}
+.font{
+    font-size: 24px;
+}
+div{
+    font-size: 3em;
+    background: wheat
+  }
+#div2{
+    color: blue;
+}
+[href ="#"]{
+    color: yellow;
+}
+ul{
+    font-weight: bold;
+}
+.item  span {
+    font-size: 100px;
+}
+
+.item > span {
+    font-style: italic;
+    color: red;
+}
