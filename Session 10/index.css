@@ -1,0 +1,58 @@
+.container1{
+    display: flex;
+    background-color: DodgerBlue;
+}
+.container1>div{
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    width: 25%;
+    border: 1px solid black;
+}
+.container2{
+    display: flex;
+    background-color: DodgerBlue;
+}
+.container2>div{
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    width: 33%;
+    border: 1px solid black;
+}
+.container2-items>div{
+    display: flex;
+    border: 1px solid black;
+}
+.container3{
+    display: flex;
+    background-color: DodgerBlue;
+}
+.container3>div{
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    width: 50%;
+    border: 1px solid black;
+}
+.container3-items>div{
+    display: flex;
+    border: 1px solid black;
+}
+.container4{
+    display: flex;
+    background-color: DodgerBlue;
+}
+.container4>div{
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+   
+    border: 1px solid black;
+}
+.container4-left{
+    width: 25%;
+}
+.container4-right{
+    width: 75%;
+}

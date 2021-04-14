@@ -75,7 +75,7 @@ function ex11(){
         console.log('Upper button clicked')
     })
 }
-// ex11()
+
 function ex11_5(){
     let nhap = document.getElementById('title1')
     console.log(nhap)
@@ -89,60 +89,60 @@ function ex11_5(){
 }
 
 
-let items = ['Backpack','MiBand watch','Ring']
-let a = document.getElementById('item_list_ul')
-let b = document.getElementById('li2')
-let c = document.getElementById('li1')
-a.removeChild(c)
-a.removeChild(b)
+// let items = ['Backpack','MiBand watch','Ring']
+// let a = document.getElementById('item_list_ul')
+// let b = document.getElementById('li2')
+// let c = document.getElementById('li1')
+// a.removeChild(c)
+// a.removeChild(b)
 
-for (let i = 0; i < items.length; i++){
-    a.insertAdjacentHTML('beforeend',`<li><span>${items[i]}</span></li>`)
+// for (let i = 0; i < items.length; i++){
+//     a.insertAdjacentHTML('beforeend',`<li><span>${items[i]}</span></li>`)
 
-} 
+// } 
 
-let x = document.getElementsByTagName("LI");
-console.log(x[1])
+// let x = document.getElementsByTagName("LI");
+// console.log(x[1])
 
-x[0].insertAdjacentHTML('beforeend',`<button id="r1" onclick="remove1()">Remove</button>`)
-x[1].insertAdjacentHTML('beforeend',`<button id="r2" onclick="remove2()">Remove</button>`)
-x[2].insertAdjacentHTML('beforeend',`<button id="r3" onclick="remove3()">Remove</button>`)
+// x[0].insertAdjacentHTML('beforeend',`<button id="r1" onclick="remove1()">Remove</button>`)
+// x[1].insertAdjacentHTML('beforeend',`<button id="r2" onclick="remove2()">Remove</button>`)
+// x[2].insertAdjacentHTML('beforeend',`<button id="r3" onclick="remove3()">Remove</button>`)
 
 
 
-function remove1(){
-    console.log('Clicked remove')
-    console.log(`Index: 0`)
-    items.splice(0, 1)
-    console.log(items)
-    x[0].remove()
-}
-function remove2(){
-    console.log('Clicked remove')
-    console.log(`Index: 1`)
-    items.splice(1, 1)
-    console.log(items)
-    x[1].remove()
-}
-function remove3(){
-    console.log('Clicked remove')
-    console.log(`Index: 2`)
-    items.splice(2, 1)
-    console.log(items)
-    x[2].remove()
-}
+// function remove1(){
+//     console.log('Clicked remove')
+//     console.log(`Index: 0`)
+//     items.splice(0, 1)
+//     console.log(items)
+//     x[0].remove()
+// }
+// function remove2(){
+//     console.log('Clicked remove')
+//     console.log(`Index: 1`)
+//     items.splice(1, 1)
+//     console.log(items)
+//     x[1].remove()
+// }
+// function remove3(){
+//     console.log('Clicked remove')
+//     console.log(`Index: 2`)
+//     items.splice(2, 1)
+//     console.log(items)
+//     x[2].remove()
+// }
 
-function addNew(){
-    let a = document.getElementById('item_list_ul')
-    let e = document.getElementById('input2').value
+// function addNew(){
+//     let a = document.getElementById('item_list_ul')
+//     let e = document.getElementById('input2').value
     
-    console.log('clicked')
-    console.log(e)
-    items.push(e)
-    console.log(items)
-    a.insertAdjacentHTML('beforeend',`<li><span>${e}</span></li>`)
-    console.log(a)
+//     console.log('clicked')
+//     console.log(e)
+//     items.push(e)
+//     console.log(items)
+//     a.insertAdjacentHTML('beforeend',`<li><span>${e}</span></li>`)
+//     console.log(a)
 
-}
+// }
 
 
