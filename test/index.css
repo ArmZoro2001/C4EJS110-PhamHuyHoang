@@ -7,19 +7,12 @@
     color: white;
     background-color: red;
     width: 550px;
+    text-align: center;
 }
 .content{
     background-color: rgb(214,255,255);
     height: 60px;
     width: 550px;
 }
-@media only screen and (max-width: 736px){
-    .header{
-        font-size: 40px;
-        width: 500px;
-    }
-    .content{
-        font-size: 8px;
-        width: 500px;
-    }
-}
+
+
