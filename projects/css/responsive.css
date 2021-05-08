@@ -7,4 +7,7 @@
 	.info-product{
 		height: 300px;
 	}
+	.swatch .swatch-element.color {
+		margin:5px 8px 5px 0;
+	}
 }
